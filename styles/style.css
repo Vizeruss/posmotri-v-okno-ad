@@ -1,4 +1,3 @@
-/* Общие правила */
 *,
 *::before,
 *::after {
@@ -21,9 +20,14 @@ html {
   font: 18px 'Fira Sans Condensed', sans-serif;
 }
 
-/* Сбросы */
-h1, h2, h3, h4,
-p, ul, ol, li,
+h1, 
+h2, 
+h3, 
+h4,
+p, 
+ul, 
+ol, 
+li,
 blockquote, fieldset {
   margin: 0;
   padding: 0;
@@ -33,7 +37,6 @@ ul, ol {
   list-style-type: none;
 }
 
-/* Скролл */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -201,7 +204,6 @@ ul, ol {
   outline-offset: 1px;
 }
 
-/* Чекбоксы */
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
